@@ -23,6 +23,8 @@ SOURCES += \
     AppTinyMesh/Source/ray.cpp \
     AppTinyMesh/Source/shader-api.cpp \
     AppTinyMesh/Source/triangle.cpp \
+    AppTinyMesh/Source/cylindre.cpp \
+    AppTinyMesh/Source/disk.cpp \
 
 HEADERS += \
     AppTinyMesh/Include/box.h \
@@ -35,6 +37,9 @@ HEADERS += \
     AppTinyMesh/Include/qte.h \
     AppTinyMesh/Include/realtime.h \
     AppTinyMesh/Include/shader-api.h \
+    AppTinyMesh/Include/cylindre.h \
+    AppTinyMesh/Include/disk.h \
+    AppTinyMesh/Include/ray.h \
 
 FORMS += \
     AppTinyMesh/UI/interface.ui
